@@ -30,6 +30,5 @@ bin/
 
 ### User ###
 .gitignore
-.idea/.gitignore
-.idea
+.idea/
 maratona-java.iml
