@@ -29,13 +29,6 @@ bin/
 .DS_Store
 
 ### User ###
-<<<<<<< HEAD
-.gitignore
 .idea/
 maratona-java.iml
-=======
-.idea/.gitignore
-.idea
-maratona-java.iml
 .gitignore
->>>>>>> 39b983ac315fef66e1ac9b33aa07d8262ed87316
