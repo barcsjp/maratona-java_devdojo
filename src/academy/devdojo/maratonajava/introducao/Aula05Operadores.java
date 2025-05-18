@@ -12,7 +12,7 @@ public class Aula05Operadores
         double diff = numero1 - numero2;
         double divide = numero1 / numero2;
 
-        System.out.println("Multiplicação = " + multiply); 
+        System.out.println("Multiplicação = " + multiply);
         System.out.println("Soma = " + sum);
         System.out.println("Diferença = " + diff);
         System.out.println("Divisão = " + divide);
@@ -43,7 +43,25 @@ public class Aula05Operadores
         double valorContaInvestimentos = 10000;
         float valorPlaystation = 3500F;
         boolean isPlaystationBuyable = valorContaCorrente > valorPlaystation || valorContaInvestimentos > valorPlaystation;
-        System.out.println("O Playstation é compravel? -> " + isPlaystationBuyable);
+        System.out.println("O Playstation é comprável? -> " + isPlaystationBuyable);
 
+        // Operadores de atribuição:
+        // = += -= *= /= %=
+
+        double bonus = 1800;
+        bonus += 1000;
+        System.out.println(bonus);
+
+        bonus -= 1000;
+        System.out.println(bonus);
+
+        bonus *= 2;
+        System.out.println(bonus);
+
+        bonus /= 2;
+        System.out.println(bonus);
+
+        bonus %= 2;
+        System.out.println(bonus);
     }
 }
