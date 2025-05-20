@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.introducao.exercicios;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Aula06EstruturasCondicionas05Exercicio {
