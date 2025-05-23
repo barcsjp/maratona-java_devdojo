@@ -14,11 +14,12 @@ public class Aula07EstruturasDeRepeticao03Exercicio {
         for (int parcela = 1; parcela <= valorCarro; parcela++)
         {
             double valorParcela = valorCarro / parcela;
-            if (valorParcela < 1000)
+            if (parcela < 1000)
             {
                 break;
             }
-            System.out.println("Dividido em " + parcela + " parcela(s): " + " R$" + valorParcela);
+            System.out.println("Dividido em " + parcela + " parcelas: " + " R$" + valorParcela);
+
 
         }
     }
