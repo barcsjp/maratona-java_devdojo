@@ -7,5 +7,7 @@ public class CalculadoraTest3 {
         Calculadora calculadora = new Calculadora();
         double result = calculadora.divideDoisNumeros(150, 2.5);
         System.out.println(result);
+
+        calculadora.imprimeDivDoisNumeros(20, 5);
     }
 }
