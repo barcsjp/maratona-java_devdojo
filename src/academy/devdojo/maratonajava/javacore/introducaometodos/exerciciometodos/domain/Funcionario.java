@@ -1,9 +1,10 @@
 package academy.devdojo.maratonajava.javacore.introducaometodos.exerciciometodos.domain;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salarios = new double[3];
+    private String nome;
+    private int idade;
+    private double[] salarios = new double[3];
+    private double media;
 
     public void imprimirDados(){
         System.out.println("Nome do funcionário: " + this.nome);
@@ -13,7 +14,6 @@ public class Funcionario {
             System.out.println(salario);
         }
         calcularMediaSalarial();
-
     }
 
     public void calcularMediaSalarial(){
@@ -22,10 +22,38 @@ public class Funcionario {
             soma += salario;
 
         }
-        double media = soma / salarios.length;
+        this.media = soma / salarios.length;
         System.out.println("--------");
         System.out.println("Média:");
         System.out.println("Salários considerados: " + salarios[0] + " " + salarios[1] + " " + salarios[2]);
         System.out.printf("Média salarial: %.2f", media);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public double getMedia() {
+        return media;
     }
 }
